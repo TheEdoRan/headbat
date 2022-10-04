@@ -1,4 +1,4 @@
-This script checks the battery level for a Bluetooth headphone device connected to a Linux machine.
+This script checks the battery level for Bluetooth headphones connected to a Linux machine.
 
 # Usage
 
