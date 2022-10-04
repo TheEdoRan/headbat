@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+HEADSET=$(upower -d | grep /org/freedesktop/UPower/devices/headset_dev_ | awk '{ print $2 }')
+PERCENTAGE=$(upower -i "$HEADSET" | grep percentage | awk '{ print $2 }')
+
+echo "$PERCENTAGE"
